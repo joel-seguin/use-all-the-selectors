@@ -19,7 +19,7 @@ nav ul {
 }
 
 #contents, #favs, #facts, #types {
-  color: #93a1a1
+  color: #93a1a1;
 }
 
 .wrapper > .dfn {
@@ -48,6 +48,10 @@ ol :last-child {
 
 .types li:nth-child(odd) {
   background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
 }
 
 .types li:nth-child(3n+3) {
